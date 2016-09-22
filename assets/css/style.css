@@ -209,7 +209,7 @@ a, .btn, .navbar, .form-control, .portfolio-item-description {
 }
 .section, .callout {
     position: relative;
-    padding: 120px;
+    padding: 120px 0;
 }
 section.callout {
     background: url(/assets/img/dark_mac.jpeg);
@@ -222,7 +222,7 @@ section.callout {
     padding: 0;
 }
 #services .fa {
-    color: #ecf0f1;
+    color: #000;
 }
 .callout h3 {
     font-weight: bold;
@@ -412,7 +412,7 @@ h3>.fa {
     margin-right: 5px;
 }
 .widget-social li a {
-    background: #2e2e2e;
+    background: #000;
     text-align: center;
     display: block;
     width: 40px;
@@ -422,7 +422,7 @@ h3>.fa {
     color: #FFF;
 }
 .widget-social li a:hover {
-    background: #ecf0f1;
+    background: #c0392b;
 }
 .service {
     margin: 0 0 40px;
