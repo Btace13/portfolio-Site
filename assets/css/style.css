@@ -212,7 +212,7 @@ a, .btn, .navbar, .form-control, .portfolio-item-description {
     padding: 120px 0;
 }
 section.callout {
-    background: url(/assets/img/dark_mac.jpeg);
+    background: url("http://i.imgur.com/gXZOfcq.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
