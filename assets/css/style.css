@@ -5,9 +5,6 @@ body {
     color: #545454;
     font-weight: bold;
 }
-.pome {
-    color: #c0392b;
-}
 img {
     max-width: 100%;
     height: auto;
@@ -33,7 +30,6 @@ h2 {
     font-weight: 700;
 }
 h3 {
-    color: #000;
     font-size: 22px;
     text-transform: uppercase;
     margin: 5px 0 15px;
@@ -47,13 +43,6 @@ h5 {
 }
 h6 {
     font-size: 13px;
-}
-#services h4 {
-    color: #c0392b;
-}
-.profile-item h5 {
-    cursor: pointer;
-    color: #D3A800;
 }
 a, .btn, .navbar, .form-control, .portfolio-item-description {
     -webkit-transition: all 0.125s ease-in-out 0s;
@@ -137,12 +126,12 @@ a, .btn, .navbar, .form-control, .portfolio-item-description {
     border: 2px solid #D3A800;
 }
 .btn-custom-1:hover, .btn-custom-1:focus, .btn-custom-1:active, .btn-custom-1.active {
-    background: #c0392b;
+    background: #070B47;
     border: 2px solid #D3A800;
     color: #FFF;
 }
 .btn-custom-2:hover, .btn-custom-2:focus, .btn-custom-2:active, .btn-custom-2.active {
-    background: #c0392b;
+    background: #D38D00;
     border: 2px solid #222;
     color: #FFF;
 }
@@ -209,7 +198,7 @@ a, .btn, .navbar, .form-control, .portfolio-item-description {
 }
 .section, .callout {
     position: relative;
-    padding: 120px;
+    padding: 120px 0;
 }
 section.callout {
     background: url(/assets/img/dark_mac.jpeg);
@@ -217,12 +206,6 @@ section.callout {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom;
-}
-#services {
-    padding: 0;
-}
-#services .fa {
-    color: #ecf0f1;
 }
 .callout h3 {
     font-weight: bold;
@@ -339,7 +322,7 @@ h3>.fa {
     color: #FFF;
 }
 .navbar-custom .navbar-nav>li.active {
-    border-bottom: 3px solid #c0392b;
+    border-bottom: 3px solid #070B47;
 }
 .navbar-custom .navbar-toggle .icon-bar {
     background: #FFF;
@@ -349,12 +332,12 @@ h3>.fa {
     font-size: 15px;
 }
 .navbar-color, .custom-collapse {
-    background: #ecf0f1;
+    background: #070B47;
     box-shadow: 0 0 4px rgba(0, 0, 0, .2);
     padding: 0;
 }
 .navbar-color .navbar-brand, .custom-collapse .navbar-brand, .navbar-color .navbar-nav>li>a, .navbar-color .navbar-nav .dropdown-menu>li>a, .custom-collapse .navbar-nav>li>a, .custom-collapse .navbar-nav .dropdown-menu>li>a {
-    color: #c0392b;
+    color: #D3A800;
 }
 .navbar-color .navbar-nav>li.active {
     border-bottom: 3px solid #D38D00;
@@ -381,14 +364,8 @@ h3>.fa {
 #intro h1, #intro h2, #intro h3, #intro h4, #intro h5, #intro h6 {
     color: #FFF;
 }
-#intro h3 {
-    color: #c0392b;
-}
 .hello {
     margin: 0 0 100px;
-}
-.page .widget-social li a {
-    background: #c0392b;
 }
 #profile-contact {
     box-shadow: 0 0 4px rgba(0, 0, 0, .2);
@@ -398,7 +375,7 @@ h3>.fa {
     display: block;
     line-height: 42px;
     font-size: 32px;
-    color: #c0392b;
+    color: #070B47;
 }
 .profile-widget {
     margin-bottom: 40px;
@@ -422,7 +399,7 @@ h3>.fa {
     color: #FFF;
 }
 .widget-social li a:hover {
-    background: #ecf0f1;
+    background: #070B47;
 }
 .service {
     margin: 0 0 40px;
@@ -465,7 +442,7 @@ h3>.fa {
     bottom: 0;
 }
 .portfolio-item-description {
-    background: rgba(211, 168, 0, .8);
+    background: rgba(255, 255, 255, .85);
     position: absolute;
     right: 0;
     bottom: -70px;
@@ -473,7 +450,7 @@ h3>.fa {
     padding: 25px;
     text-align: center;
     opacity: 0;
-    color: white;
+    color: #222;
 }
 #contact {
     background: #18191a;
