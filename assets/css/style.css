@@ -307,20 +307,6 @@ h3>.fa {
         opacity: 0;
     }
 }
-@keyframes drop {
-    0% {
-        top: 5px;
-        opacity: 0;
-    }
-    30% {
-        top: 10px;
-        opacity: 1;
-    }
-    100% {
-        top: 25px;
-        opacity: 0;
-    }
-}
 .navbar {
     background: none;
     border-radius: 0;
@@ -447,6 +433,10 @@ h3>.fa {
     margin-top: 20px;
 }
 .portfolio-item {
+    -webkit-margin-bottom: 20px;
+    -moz-margin-bottom: 20px;
+    -ms-margin-bottom: 20px;
+    -o-margin-bottom: 20px;
     margin-bottom: 20px;
     overflow: hidden;
 }
