@@ -377,6 +377,7 @@ h3>.fa {
     background: #c0392b;
 }
 #profile-contact {
+    text-align: center;
     box-shadow: 0 0 4px rgba(0, 0, 0, .2);
     padding: 20px 0;
 }
